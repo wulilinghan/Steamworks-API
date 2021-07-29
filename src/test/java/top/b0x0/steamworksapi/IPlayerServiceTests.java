@@ -20,7 +20,7 @@ public class IPlayerServiceTests {
     RestTemplate restTemplate;
 
     private static final String steamId64 = "76561198332498227";
-    private static final String steamWebApiKey = "7BC3C7D5EDBC6B95B350ECA322D909B7";
+    private static final String steamWebApiKey = "{your steam web api key}";
 
     /**
      * 返回用户的 Steam 等级。

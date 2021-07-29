@@ -64,7 +64,7 @@ public enum SteamApiEnum {
 
     public static String buildUrl(SteamApiEnum apiEnum) {
         return String.format("http://api.steampowered.com/%s/%s/%s/?key=%s&steamid=%s",
-                apiEnum.interfaceName, apiEnum.methodName, apiEnum.version, "7BC3C7D5EDBC6B95B350ECA322D909B7", "76561198332498227");
+                apiEnum.interfaceName, apiEnum.methodName, apiEnum.version, "{your steam web api key}", "76561198332498227");
     }
 
     public String getInterfaceName() {
