@@ -1,0 +1,8 @@
+steam:
+  id: 76561198332498227 # SteamID64 查询网站： https://steamid.facheme.com/
+  web_api_key: 7BC3C7D5EDBC6B95B350ECA322D909B7 # web_api_key 申请地址： https://steamcommunity.com/dev/apikey
+server:
+  port: 7777
+spring:
+  application:
+    name: Steamwork-Api
